@@ -1,5 +1,5 @@
 /* vytvořit tabulku */
-CREATE TABLE demo (
+CREATE TABLE udaje (
     /* atribut id */
     id int UNSIGNED NOT NULL AUTO_INCREMENT,
     /* atribut jméno */
