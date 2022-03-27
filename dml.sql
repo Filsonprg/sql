@@ -1,7 +1,7 @@
 /* vložení jména, věku a narození pro Filip */
 INSERT INTO demo (jmeno, vek, narozeni) VALUES ("Filip", 17, 2005-02-01);
 /* vložení jména, věku a narození pro Pepu */
-INSERT INTO demo (jmeno, vek, narozeni) VALUES ("Pepa", 17, 2004-22-09);
+INSERT INTO demo (jmeno, vek, narozeni) VALUES ("Pepa", 17, 2004-09-22);
 /* updatování jména */
 UPDATE demo SET jmeno = "Pavel" WHERE id = 1;
 /* Smazání záznamu s id 2 */
