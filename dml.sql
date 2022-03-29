@@ -6,13 +6,13 @@ INSERT INTO udaje (jmeno, vek, narozeni) VALUES ("Pepa", 17, 2004-09-22);
 UPDATE udaje SET jmeno = "Pavel" WHERE id = 1;
 /* Smazání záznamu s id 2 */
 DELETE FROM udaje WHERE id = 2;
-/* Vybrání všeho z tabulky demo */
+/* Vybrání všeho z tabulky udaje */
 SELECT * FROM udaje
-/* Vybrání jména a věku z tabulky demo */
+/* Vybrání jména a věku z tabulky udaje */
 SELECT jmeno, vek FROM udaje
 /* Vybrání jména a věku kde id je rovno 1 nebo 2 */
 SELECT jmeno, vek FROM udaje WHERE id = 1 OR 2
-/* Vybrání jména a věku z tabulky demo, a seřazené podle jména */
+/* Vybrání jména a věku z tabulky udaje, a seřazené podle jména */
 SELECT jmeno, vek FROM udaje ORDER BY jmeno
-/* Vybrání jména a věku z tabulky demo seřazeno podle jména a vypsané pouze první 3 entity */
+/* Vybrání jména a věku z tabulky udaje seřazeno podle jména a vypsané pouze první 3 entity */
 SELECT jmeno, vek FROM udaje ORDER BY jmeno LIMIT 3
